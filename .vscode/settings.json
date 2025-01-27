@@ -1,7 +1,12 @@
 {
     "angular-schematics.schematicsDefaultOptions": {
         "angular-*": {
-            "externalTemplate": true
+            "externalTemplate": true,
+            "skipStyle": true
         }
-    }
+    },
+    "exportall.config.relExclusion": [
+        "/src/app/pokemons/interfaces/simpe-pokemon.interface.ts",
+        "/src/app/pokemons/interfaces/index.ts"
+    ]
 }
