@@ -1,0 +1,2 @@
+/pokemons/1
+/pokemons/555
