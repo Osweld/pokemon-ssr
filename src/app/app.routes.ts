@@ -4,7 +4,7 @@ export const routes: Routes = [
   {
     path: '',
     pathMatch: 'full',
-    redirectTo: '/about',
+    redirectTo: 'about',
   },
   {
     path: 'pokemons/page/:page',
@@ -28,6 +28,6 @@ export const routes: Routes = [
   },
   {
     path: '**',
-    redirectTo: '/about',
+    redirectTo: 'about',
   },
 ];
